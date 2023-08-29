@@ -1,0 +1,236 @@
+body {
+  font-family: 'Noto Sans Arabic', sans-serif;
+  background-color: #f3f5f7;
+}
+
+.editIcon,.fa-clone {
+   color: #a493f9;
+}
+.ticketNum {
+  font-weight: bold;
+}
+
+.date  ,.enabled{
+  font-size: 14px;
+  color: #99A1B7;
+}
+.stat {
+  font-size: 14px;
+  font-weight: 400;
+}
+.yearlyTxt {
+  font-size: 12.5px;
+  font-weight: 400;
+}
+
+.special-ticket  {
+  background-color: #8a74f9;
+  border-radius: 16px;
+}
+.newTicket {
+  background-color: #8a74f9;
+  color: white;
+}
+.fa-toggle-on {
+  font-size: 1.5rem;
+  color: #8a74f9;
+}
+.fa-magnifying-glass  {
+  right: 35%;
+  top: 12px;
+}
+.underDelete {
+  background-color: black;
+  border-radius: 10px;
+  width:80px;
+  height:30px;
+  position: relative;
+  display: inline-block;
+}
+.underDelete::before {
+  content:"";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  bottom: 25px;
+  left: 50%; /* 1px buffer for zooming problems while rendering*/
+  border-width: 15px;
+  border-color: transparent transparent black transparent;
+  border-style: solid;
+  transform: translate(-50%);
+}
+.tazkarti {
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 555555;
+}
+
+.june {
+  font-size: 12px;
+}
+
+.dotted-line {
+  border-bottom: 3px dashed  #ffffff5b;
+}
+.searchingInput{
+  text-align: end;
+}
+
+.qr{
+  width: 80px;
+  background-color: white;
+  position: relative;
+  z-index: 55555;
+
+}
+.shareBtn {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.special-ticket::before {
+  content:"";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 50%;
+  left: 95%; /* 1px buffer for zooming problems while rendering*/
+  border-width: 20px;
+  border-radius: 60%;
+  border-color: #f3f5f7 transparent #f3f5f7 #f3f5f7;
+  border-style: solid;
+  transform: translate(0,-50%);
+}
+.special-ticket::after {
+  content:"";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 50%;
+  right: 95%; /* 1px buffer for zooming problems while rendering*/
+  border-width: 20px;
+  border-radius: 60%;
+  border-color: #f3f5f7 #f3f5f7 #f3f5f7 transparent;
+  border-style: solid;
+  transform: translate(0,-50%);
+}
+
+.mySvg {
+  bottom: 0;
+  right: 5px;
+}
+.sliders {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #92A1AD66 !important;
+}
+.sliders i {
+  color: #8B8B8B;
+}
+.bestSel {
+  font-weight: 500;
+}
+.tableHead {
+  background-color: #F3F3F5;
+}
+.ma{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #038CB7;
+  color: white;
+}
+.spec-color {
+  color: #92A1AD;
+  font-size: 13px;
+}
+.mhmoud {
+  background-image: url(../imgs/Image-30.png);
+
+  background-size: 100% ,100%;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}
+.mhmoud2{
+  background-image: url(../imgs/Image-31.png);
+
+  background-size: 100% ,100%;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}
+
+.tick{
+  width: 32px;
+  height: 32px;
+  background-color: #8A74F91A;
+  border-radius: 8px;
+}
+.whiteTick {
+  width: 32px;
+  height: 32px;
+border: 2px solid #8A74F9;
+  border-radius: 8px;
+}
+.tickket {
+  color: #8A74F9;
+}
+
+.grayFont{
+  color:#ABAAB1
+}
+
+.grayFont td {
+  vertical-align: middle;
+}
+.activeLink {
+  background-color: #8A74F9;
+}
+table {
+  display: block;
+}
+
+.spcTog {
+  border: 1px solid #DDDDDD;
+}
+
+.sydnawiMall {
+  width: 148px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  border: 1px solid ;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+.sydnawiMall::before {
+  content:"";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: 25px;
+  left: 50%; /* 1px buffer for zooming problems while rendering*/
+  border-width: 15px;
+  border-color: black transparent transparent transparent;
+  border-style: solid;
+  transform: translate(-50%);
+}
+
+
+@media (max-width: 989px) { 
+.layout {
+   display: block !important;
+}
+.special-ticket::before {
+  left: 97%;
+}
+.special-ticket::after {
+  right: 97%;
+}
+
+ }
